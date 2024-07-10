@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Carta de Despido</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      .header,
+      .footer {
+        text-align: center;
+      }
+      .content {
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header"><p>{{ fecha_actual }}</p></div>
+    <div class="content">
+      <p>
+        {{ nombre }} {{ apellidos }}<br />
+        Cargo: {{ cargo }}<br />
+        Fecha de Contratación: {{ fechaContratacion }}
+      </p>
+      <p>Estimado/a {{ nombre }} {{ apellidos }},</p>
+      <p>{{ motivo_despido }}</p>
+      <p>
+        Por favor, devuelva cualquier propiedad de la empresa, incluyendo
+        llaves, tarjetas de acceso, y cualquier equipo proporcionado por la
+        empresa, antes de la fecha de terminación. También recibirá la
+        liquidación correspondiente a los días trabajados hasta la fecha de
+        terminación.
+      </p>
+      <p>
+        Apreciamos sus esfuerzos durante su tiempo en la empresa y le deseamos
+        éxito en sus futuros emprendimientos.
+      </p>
+      <p>Atentamente,</p>
+      <p>
+        {{ jefe_inmediato }}<br />
+        Jefe Inmediato
+      </p>
+    </div>
+    <div class="footer"><p>Nombre de la Empresa</p></div>
+  </body>
+</html>
