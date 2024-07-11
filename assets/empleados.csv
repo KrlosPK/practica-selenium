@@ -1,11 +1,11 @@
-nombre,apellidos,cargo,fecha de contratacion,motivo de despido,fecha de despido,jefe inmediato
-Carlos,García,Analista,2019-03-15,Rendimiento insuficiente,2024-07-01,Marta López
-Ana,Martínez,Gerente,2018-07-22,Reestructuración,2024-07-02,Juan Sánchez
-Luis,Pérez,Asistente,2020-01-10,Conducta inapropiada,2024-07-03,Lucía Fernández
-María,Rodríguez,Desarrolladora,2017-11-05,Rendimiento insuficiente,2024-07-04,Pedro González
-Jorge,López,Vendedor,2019-09-23,Ausentismo,2024-07-05,Sofía Herrera
-Elena,Gómez,Diseñadora,2018-05-19,Reestructuración,2024-07-06,Carlos Ruiz
-Pablo,Fernández,Contador,2021-04-12,Rendimiento insuficiente,2024-07-07,Ana Morales
-Laura,Díaz,Recepcionista,2017-08-30,Reducción de personal,2024-07-08,Luis Torres
-Roberto,Sánchez,Supervisor,2020-12-15,Conducta inapropiada,2024-07-09,Elena Muñoz
-Sofia,Torres,Ingeniera,2016-06-11,Reestructuración,2024-07-10,Roberto Díaz
+nombre,apellidos,cargo,fecha de contratacion,motivo de despido,fecha de despido,jefe inmediato,correo jefe
+Carlos,García,Analista,2019-03-15,Rendimiento insuficiente,2024-07-01,Marta López, correo_jefe@cesde.net
+Ana,Martínez,Gerente,2018-07-22,Reestructuración,2024-07-02,Juan Sánchez, correo_jefe@cesde.net
+Luis,Pérez,Asistente,2020-01-10,Conducta inapropiada,2024-07-03,Lucía Fernández, correo_jefe@cesde.net
+María,Rodríguez,Desarrolladora,2017-11-05,Rendimiento insuficiente,2024-07-04,Pedro González, correo_jefe@cesde.net
+Jorge,López,Vendedor,2019-09-23,Ausentismo,2024-07-05,Sofía Herrera, correo_jefe@cesde.net
+Elena,Gómez,Diseñadora,2018-05-19,Reestructuración,2024-07-06,Carlos Ruiz, correo_jefe@cesde.net
+Pablo,Fernández,Contador,2021-04-12,Rendimiento insuficiente,2024-07-07,Ana Morales, correo_jefe@cesde.net
+Laura,Díaz,Recepcionista,2017-08-30,Reducción de personal,2024-07-08,Luis Torres, correo_jefe@cesde.net
+Roberto,Sánchez,Supervisor,2020-12-15,Conducta inapropiada,2024-07-09,Elena Muñoz, correo_jefe@cesde.net
+Sofia,Torres,Ingeniera,2016-06-11,Reestructuración,2024-07-10,Roberto Díaz, correo_jefe@cesde.net
