@@ -13,8 +13,6 @@ from assets.motivosDespido import get_motivo_despido
 # Cargamos las variables de entorno
 load_dotenv(override=False)
 
-print(os.environ.get("OUTLOOK_EMAIL"))
-
 # Configuraciones para generar el PDF
 path_to_wkesohpta = r"C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe"
 config = pdfkit.configuration(wkhtmltopdf=path_to_wkesohpta)
