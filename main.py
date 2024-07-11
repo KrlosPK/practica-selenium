@@ -1,18 +1,18 @@
 import pandas as pd
 import pdfkit
 from jinja2 import Environment, FileSystemLoader
-from motivosDespido import get_motivo_despido
+from assets.motivosDespido import get_motivo_despido
 
 # Configuraciones para generar el PDF
 path_to_wkesohpta = r"C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe"
 config = pdfkit.configuration(wkhtmltopdf=path_to_wkesohpta)
 
 # * 1. Leer la tabla de datos
-firedEmployees = pd.read_csv("./empleados.csv", encoding="utf-8")
+firedEmployees = pd.read_csv("./assets/empleados.csv", encoding="utf-8")
 
 # Configuraciones para obtener la plantilla HTML
 env = Environment(loader=FileSystemLoader(".", encoding="utf-8"))
-template = env.get_template("./template.html")
+template = env.get_template("./assets/template.html")
 
 # * 2. Rellenar la plantilla de la carta de despido
 for index, row in firedEmployees.iterrows():
